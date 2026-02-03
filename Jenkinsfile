@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/kerrgreg/Lab6.git'
+                git branch: 'main', url: 'https://github.com/kerrgreg/Lab6'
             }
         }
         stage('Install Terraform') {
